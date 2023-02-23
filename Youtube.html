@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="mystyles/video.css" />
+    <link rel="stylesheet" href="mystyles/header.css" />
+    <link rel="stylesheet" href="mystyles/general.css" />
+    <link rel="stylesheet" href="mystyles/sidebar.css" />
+    <link rel="stylesheet" href="mystyles/links.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hm-menu" src="icons/hamburger-menu.svg" alt="" />
+        <img class="yt-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <!--put position absolute inside position relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search With Your Voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-cont">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="yt-apps-cont">
+          <img class="yt-apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+
+        <div class="notif-cont">
+          <div class="notification-icon">
+            <img class="notif-icon" src="icons/notifications.svg" />
+            <div class="notification-count">3</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+        </div>
+
+        <img class="current-usr-pic" src="pps/channels4_profile.jpg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="videogrid">
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumbnail" src="thumbnails/t1.webp" />
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp1.jpeg" /></div>
+            <div class="info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">Marques Brownlee &#10003;</p>
+              <p class="video-stats">3.4M views · 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumbnail" src="thumbnails/t2.webp" alt="" />
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp2.jpeg" /></div>
+            <div class="info">
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+              <p class="video-author">Markiplier &#10003;</p>
+              <p class="video-stats">19M views · 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <a href="https://youtu.be/IoTL9xZOdP0">
+            <img class="thumbnail" src="thumbnails/t3.webp" />
+          </a>
+            <div class="video-time">9:10</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp3.jpg" /></div>
+            <div class="info">
+              <p class="video-title"><a class="vid-link" href="https://youtu.be/IoTL9xZOdP0">MAGGIE KHAO BODY BANAO | CARRY MINATI</a></p>
+              <p class="video-author">CarryMinati &#10003;</p>
+              <p class="video-stats">23M views · 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumbnail" src="thumbnails/t4.webp" alt="" />
+            <div class="video-time">32:33</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp4.jpg" /></div>
+            <div class="info">
+              <p class="video-title">Sasta Shark Tank | Ashish Chanchlani</p>
+              <p class="video-author">ashish chanchlani vines &#10003;</p>
+              <p class="video-stats">63M views · 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumbnail" src="thumbnails/t5.webp" alt="" />
+            <div class="video-time">9:54</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp5.jpg" /></div>
+            <div class="info">
+              <p class="video-title">
+                Biden's High-Risk Ukraine Tour | Why Americans are Angry about
+                it?
+              </p>
+              <p class="video-author">World Affairs</p>
+              <p class="video-stats">315k views · 5 Hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumb-row">
+            <img class="thumbnail" src="thumbnails/t6.webp" alt="" />
+            <div class="video-time">2:52:40</div>
+          </div>
+          <div class="vid-info-grid">
+            <div class="pp"><img class="pp1" src="PPs/pp6.jpg" /></div>
+            <div class="info">
+              <p class="video-title">ENTERING BACKROOMA AGAIN-NO PROMOTION</p>
+              <p class="video-author">CarryisLive &#10003;</p>
+              <p class="video-stats">889k views · Streamed 3 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
